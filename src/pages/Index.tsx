@@ -20,7 +20,7 @@ const Index = () => {
       <footer className="bg-card border-t border-border py-8">
         <div className="container mx-auto px-6 text-center">
           <p className="text-muted-foreground">
-            © 2024 Senior Software Engineer. Built with accessibility in mind.
+            © 2025 Senior Software Engineer. Built with accessibility in mind.
           </p>
         </div>
       </footer>

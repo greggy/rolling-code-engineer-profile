@@ -7,7 +7,7 @@ const Skills = () => {
     {
       icon: <Code size={32} />,
       title: "Programming Languages",
-      skills: ["Go", "Erlang", "Python", "JavaScript", "TypeScript", "C++"]
+      skills: ["Go", "Erlang", "Python", "JavaScript", "TypeScript", "R"]
     },
     {
       icon: <Cloud size={32} />,
@@ -32,7 +32,7 @@ const Skills = () => {
     {
       icon: <Globe size={32} />,
       title: "Web Technologies",
-      skills: ["React", "Node.js", "WebSockets", "HTTP/2", "Progressive Web Apps"]
+      skills: ["React", "Vue.js", "WebSockets", "HTTP/2", "Progressive Web Apps"]
     }
   ];
 
@@ -88,7 +88,7 @@ const Skills = () => {
                 <div className="text-muted-foreground">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">100+</div>
+                <div className="text-3xl font-bold text-primary mb-2">70+</div>
                 <div className="text-muted-foreground">Projects Delivered</div>
               </div>
               <div className="text-center">

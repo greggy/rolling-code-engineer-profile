@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Mail, MapPin, Phone, Github, Linkedin } from 'lucide-react';
+import { Mail, MapPin, Phone, Send, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -30,6 +30,17 @@ const Contact = () => {
                   <Phone className="text-primary" size={24} />
                   <span className="text-muted-foreground">+7 (900) 583-76-22</span>
                 </div>
+
+                <div className="flex items-center space-x-4">
+                  <Send className="text-primary" size={24} />
+                  <span className="text-muted-foreground">
+                    <a
+                      href="https://t.me/greggy345"
+                    >
+                      @greggy345
+                    </a>
+                  </span>
+                </div>
                 
                 <div className="flex items-center space-x-4">
                   <MapPin className="text-primary" size={24} />
@@ -39,14 +50,14 @@ const Contact = () => {
               
               <div className="flex justify-center space-x-6 mt-8">
                 <a 
-                  href="#" 
+                  href="https://github.com/greggy" 
                   className="text-primary hover:text-primary/80 transition-colors"
                   aria-label="GitHub Profile"
                 >
                   <Github size={28} />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/gregfat/" 
                   className="text-primary hover:text-primary/80 transition-colors"
                   aria-label="LinkedIn Profile"
                 >
